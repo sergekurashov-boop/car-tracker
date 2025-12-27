@@ -1,0 +1,28 @@
+PS C:\car-tracker> tree /F
+Структура папок тома Windows 10
+C:.
+│   index.html
+│   styles.css
+│   manifest.json
+│   service-worker.js
+│   app.js                 # Главный файл приложения
+│
+├───js
+│   │   main.js            # Инициализация приложения
+│   │
+│   ├───modules
+│   │       cars.js        # Логика работы с автомобилями
+│   │       database.js    # Работа с IndexedDB
+│   │       ui.js          # UI компоненты и рендеринг
+│   │       insurance.js   # Логика страховок
+│   │       maintenance.js # Логика ТО
+│   │
+│   └───utils
+│           helpers.js     # Вспомогательные функции
+│           constants.js   # Константы приложения
+│
+└───assets
+    │   icon-192.png
+    │   icon-512.png
+    │
+    └───images
